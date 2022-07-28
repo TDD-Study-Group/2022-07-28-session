@@ -9,3 +9,10 @@ composed = source.pipe(
 )
 
 composed.subscribe(lambda value: print("Received {0}".format(value)))
+
+
+
+# components.scheme = "https"
+#     components.host = "api.chucknorris.io"
+#     components.path = "/jokes/random"
+#     components.setQueryItems(with: ["category": "dev"])
